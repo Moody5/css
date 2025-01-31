@@ -11,13 +11,13 @@ body{
 background-position: center; /* Centers the image */
 background-repeat: no-repeat; /* Prevents repeating */
 background-size: contain;
-height: 100vh;
+height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
-.content{
-    margin-bottom: 50px;
-}
+
 .content img{
-    height: 100px;
-    width: 100px;
-    float: left;
+   height: 90px;
+   width: auto;
+    
 }
