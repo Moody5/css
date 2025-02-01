@@ -7,17 +7,18 @@ body{
     color: #000;
     flex-direction: column;
 }
-.main{background-image: url('https://cdn.jsdelivr.net/gh/moody5/css@main/un.jpg'); /* Set the background image */
+.main{
+    /*background-image: url('https://cdn.jsdelivr.net/gh/moody5/css@main/un.jpg'); Set the background image */
 background-position: center; /* Centers the image */
 background-repeat: no-repeat; /* Prevents repeating */
 background-size: contain;
-height: 100%;
+height: auto;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
 .content img{
    height: 90px;
-   width: auto;
+   width: 40%;
     
 }
